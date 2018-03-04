@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<h3>Wellcome to giaosudauto...</h3> <br>
+<ol>
+{% for post in site.posts limit: 20%}
+  <li>
+    <div class="post-type">
+      {% case post.type %}
+        {% when 'ctf-writeup' %}
+          CTF Write-up
+        {% when 'ctf-tutorial' %}
+          CTF Tutorial
+        {% when 'my-thinking' %}
+          My thinking
+      {% endcase %}
+    </div>
+    <a href="{{post.url}}">
+      <div style="font-size:20px; margin:0px">{{post.title}}</div>
+    </a>
+    <p>{{ post.description | slice: 0, 200 }}</p>
+  </li>
+{% endfor %}
+</ol>
