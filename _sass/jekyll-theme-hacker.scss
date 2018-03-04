@@ -27,11 +27,11 @@ body {
 
 section {
   display: block;
-  margin: 0 0 20px 0;
+  margin: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 20px;
+  margin: 0px 0px 10px;
 }
 
 li {
@@ -55,7 +55,7 @@ header {
 header h1 {
   font-size: 30px;
   line-height: 1.5;
-  margin: 0 0 0 -40px;
+  margin: 0 0 0 -0px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: $conifer;//$header;
@@ -64,11 +64,6 @@ header h1 {
                0 0 10px rgba(181, 232, 83, 0.1);
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
-}
-
-header h1:before {
-  content: "./ ";
-  font-size: 24px;
 }
 
 header h2 {
@@ -80,7 +75,7 @@ header h2 {
 #downloads .btn {
   display: inline-block;
   text-align: center;
-  margin: 0;
+  margin: 10px;
 }
 
 /* Main Content
@@ -284,4 +279,48 @@ a {
 
 .cf {
   zoom:1;
+}
+
+.description {
+  color: palevioletred
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+}
+
+.column-logo {
+  width: 190px;
+}
+
+.row {
+  margin: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width:600px) {
+  .column {
+      width: 100%;
+  }
+}
+
+.logo {
+  width:150px;
+  height:140px;
+}
+
+ol {
+  margin: 0px;
+}
+
+p {
+  margin: 0px 0px 20px;
 }
