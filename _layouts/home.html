@@ -5,18 +5,19 @@ layout: default
 <ol>
 {% for post in site.posts limit: 20%}
   <li>
-    <div class="post-type">
-      {% case post.type %}
-        {% when 'ctf-writeup' %}
-          CTF Write-up
-        {% when 'ctf-tutorial' %}
-          CTF Tutorial
-        {% when 'my-thinking' %}
-          My thinking
-      {% endcase %}
-    </div>
-    <a href="{{post.url}}">
-      <div style="font-size:20px; margin:0px">{{post.title}}</div>
+      <a href="{{post.url}}">
+        <div class="post-type">
+          {% case post.type %}
+            {% when 'ctf-writeup' %}
+              CTF Write-up
+            {% when 'ctf-tutorial' %}
+              CTF Tutorial
+            {% when 'my-thinking' %}
+              My thinking
+          {% endcase %}
+        </div>
+    
+        <div style="font-size:20px; margin:0px">{{post.title}}</div>
     </a>
     <p>{{ post.description | slice: 0, 200 }}</p>
   </li>
