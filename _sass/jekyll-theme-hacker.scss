@@ -14,7 +14,7 @@ body {
   color: $body-foreground;
   font-size: 16px;
   line-height: 1.5;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, 'Inconsolata', monospace;
 }
 
 /* General & 'Reset' Stuff */
@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 li {
   line-height: 1.4 ;
+  margin: 0px 0px 10px;
 }
 
 /* Header, <header>
@@ -323,7 +324,7 @@ a {
 }
 
 ol {
-  margin: 0px;
+  margin: 0px 0px 20px;
 }
 
 p {
