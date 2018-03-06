@@ -7,8 +7,15 @@ layout: default
   {% if post.type == page.type %}
   <li>
     <a href="{{post.url}}">
-      <div style="font-size:20px; margin:0px">{{post.title}}</div>
+      <div style="font-size:20px; margin:0px">
+        {{post.title}}
+      </div>
     </a> 
+    <small>
+      <i>
+        written in {{post.language}}
+      </i>
+    </small>
     <br>
     <p>
       {{ post.description | slice: 0, 200 }}
