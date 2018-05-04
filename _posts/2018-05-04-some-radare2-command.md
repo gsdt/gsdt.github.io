@@ -8,4 +8,7 @@ tags: ctf re r2 radare2
 author: giaosudauto 
 ---
 
-```afl```: List all functions in program
+|  Command | Usage                                                                             |
+|----------|:----------------------------------------------------------------------------------|
+|```afl``` | List all functions in program                                                     |
+|```ie```  | View entry point. (Command i use to show info)                                    |
