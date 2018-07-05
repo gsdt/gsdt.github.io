@@ -21,6 +21,10 @@
         {% include common/gtm-body.html %}
     {% endif %}
 
+    {% if site.google_analytics %}
+        {% include common/google-analytics.html %}
+    {% endif %}
+
     {% include common/notices.html %}
     {% include blog/overlay.html %}
 
