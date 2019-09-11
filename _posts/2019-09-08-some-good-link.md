@@ -34,5 +34,8 @@ redirect_from:
 
 [File Operation Induced Unserialization via the “phar://” Stream Wrapper](https://i.blackhat.com/us-18/Thu-August-9/us-18-Thomas-Its-A-PHP-Unserialization-Vulnerability-Jim-But-Not-As-We-Know-It-wp.pdf)
 
+# 4. Java
+[Serial	Killer:	Silently Pwning	Your Java Endpoints](https://paper.bobylive.com/Security/asd-f03-serial-killer-silently-pwning-your-java-endpoints.pdf)
+
 # Payload All The Things
 [pat](https://github.com/swisskyrepo/PayloadsAllTheThings)
