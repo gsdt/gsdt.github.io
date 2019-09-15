@@ -34,8 +34,19 @@ redirect_from:
 
 [File Operation Induced Unserialization via the “phar://” Stream Wrapper](https://i.blackhat.com/us-18/Thu-August-9/us-18-Thomas-Its-A-PHP-Unserialization-Vulnerability-Jim-But-Not-As-We-Know-It-wp.pdf)
 
+[webshell-without-alphanum](https://www.leavesongs.com/PENETRATION/webshell-without-alphanum-advanced.html)
+
 # 4. Java
 [Serial	Killer:	Silently Pwning	Your Java Endpoints](https://paper.bobylive.com/Security/asd-f03-serial-killer-silently-pwning-your-java-endpoints.pdf)
+
+[attacking-java-deserialization](https://nickbloor.co.uk/2017/08/13/attacking-java-deserialization/)
+
+[ysoserial tools](https://github.com/frohoff/ysoserial/)
+
+# 5. XXE
+[XXE basic](https://caveconfessions.com/xxe-ugly-side-of-xml/)
+
+[from XXE to RCE in PHP](https://medium.com/@airman604/from-xxe-to-rce-with-php-expect-the-missing-link-a18c265ea4c7)
 
 # Payload All The Things
 [pat](https://github.com/swisskyrepo/PayloadsAllTheThings)
