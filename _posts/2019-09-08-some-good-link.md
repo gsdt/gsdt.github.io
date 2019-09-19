@@ -48,5 +48,14 @@ redirect_from:
 
 [from XXE to RCE in PHP](https://medium.com/@airman604/from-xxe-to-rce-with-php-expect-the-missing-link-a18c265ea4c7)
 
+[XXE local DTD files](https://mohemiv.com/all/exploiting-xxe-with-local-dtd-files/)
+
+# 6. XSS
+[By pass SCP](https://www.slideshare.net/Hacken_Ecosystem/ebrahem-hegazy-bug-hunters-manual-for-bypassing-contentsecuritypolicy)
+
+[JSONBee](https://github.com/zigoo0/JSONBee)
+
+[csp-evaluator](https://csp-evaluator.withgoogle.com/)
+
 # Payload All The Things
 [pat](https://github.com/swisskyrepo/PayloadsAllTheThings)
