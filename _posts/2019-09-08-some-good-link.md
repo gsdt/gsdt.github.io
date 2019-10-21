@@ -57,5 +57,9 @@ redirect_from:
 
 [csp-evaluator](https://csp-evaluator.withgoogle.com/)
 
+# Python template Injection
+[Summary of attacks against CTF Flask](https://qiita.com/koki-sato/items/6ff94197cf96d50b5d8f)
+
+
 # Payload All The Things
 [pat](https://github.com/swisskyrepo/PayloadsAllTheThings)
